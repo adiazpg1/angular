@@ -19,6 +19,10 @@ import { APP_ROUTING } from './app.routes';
 // Modulos
 import { PagesModule } from './pages/pages.module';
 import { PAGES_ROUTES } from './pages/pages.routes';
+import { FormsModule } from '@angular/forms';
+
+
+
 
 
 
@@ -31,7 +35,8 @@ import { PAGES_ROUTES } from './pages/pages.routes';
   imports: [
     BrowserModule,
     APP_ROUTING,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [SharedService, SidebarService],
   bootstrap: [AppComponent]
