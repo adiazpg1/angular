@@ -10,14 +10,11 @@ import { SidebarService } from './services/sidebar.service';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { APP_ROUTING } from './app.routes';
-import { PagesComponent } from './pages/pages.component';
 import { RegisterComponent } from './login/register.component';
 
 
 // rutas
-
-
+import { APP_ROUTING } from './app.routes';
 
 // Modulos
 import { PagesModule } from './pages/pages.module';
