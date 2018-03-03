@@ -14,7 +14,9 @@ import { PAGES_ROUTES } from './pages.routes';
 // temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 
-
+import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { KeysPipe } from '../pipes/keys.pipe';
 
 @NgModule({
     declarations: [
@@ -22,7 +24,9 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         ProgressComponent,
         Graficas1Component,
         PagesComponent,
-        IncrementadorComponent
+        IncrementadorComponent,
+        GraficoDonaComponent,
+        KeysPipe
     ],
      exports: [
         DashboardComponent,
@@ -32,7 +36,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
      imports: [
          SharedModule,
          PAGES_ROUTES,
-         FormsModule
+         FormsModule,
+         ChartsModule   
      ]
 })
 
