@@ -17,6 +17,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { KeysPipe } from '../pipes/keys.pipe';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { KeysPipe } from '../pipes/keys.pipe';
         PagesComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
-        KeysPipe
+        KeysPipe,
+        AccountSettingsComponent
     ],
      exports: [
         DashboardComponent,
